@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgruond"
+    tools:context=".HuongDanActivity">
+
+    <Button
+        android:id="@+id/btnnext2"
+        android:layout_width="236dp"
+        android:layout_height="62dp"
+        android:text="Hướng Dẫn"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/txtHuongDan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtHuongDan"
+        android:layout_width="318dp"
+        android:layout_height="497dp"
+        android:background="@color/white"
+        android:text="Đố vui là một trò chơi thú  vị bao gồm những câu đố thuộc các thể loại Đố Dân gian , Đố trí tuệ, Đố toán học, và các câu  Đố mẹo với nhiều chủ đề khác nhau .Đến với trò chơi  Đố vui bạn không cần phải  quá căng não để tìm ra đáp án của các  câu hỏi thay vào đó bạn chỉ  cần tinh ý một chút là đáp án đã ở t rước mặt bạn. Với ngôn từ dí  dỏm và gieo vần, game   Đố vui  chắc chắn sẽ không làm bạn thất vọng."
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.717" />
+</androidx.constraintlayout.widget.ConstraintLayout>
